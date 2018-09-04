@@ -2157,6 +2157,12 @@ BACK TO TOP
         
     }
 
+@media (max-width : 600px){
+	.image img, .image img {
+    width: 100%;
+}
+	
+}
 @media (max-width : 600px) {
     .carousel-indicators{
         display: none;
@@ -2179,9 +2185,7 @@ BACK TO TOP
         }
 
 
-        .image img, .image img {
-    width: 100%;
-}
+        
     }
 
 @media (max-width : 320px){
