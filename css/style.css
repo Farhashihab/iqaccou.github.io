@@ -184,9 +184,16 @@ Form Style
 /* --------------------------------------------------
 SECTION
 ----------------------------------------------------- */
+/*home*/
+#home{
+	background-color: #F6F6F7;
+}
+.homepage{
+	background-color: #fff;
+}
 
 .section-padding {
-   padding: 100px 0;
+   padding: 90px 0;
 }
 
 .section-title {
@@ -280,7 +287,7 @@ NAVIGATION
 	position: absolute;
 	display: none;
 	z-index: 999999;
-	background: rgba(181, 178, 183, 1);
+	background: #DAD8DB;
 	font-family: sans-serif;
 	width: 180px;
 	margin-left: -51%;
