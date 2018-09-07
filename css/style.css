@@ -1092,6 +1092,7 @@ Blog Homepage Section
 }
 .entry-title a{
     color: #414141;
+        font-size: 20px;
 }
 .entry-title a:hover{
     color: #3f25a9;
@@ -1400,7 +1401,7 @@ Blog Page
 	padding: 0px 48px 0;
 }
 .entry-title {
-	line-height: 36px;
+	line-height: 30px;
 	margin: 0;
 	margin-left: -14%;
 }
