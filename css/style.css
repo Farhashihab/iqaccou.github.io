@@ -51,10 +51,12 @@ h3 {
 }
 .gallery-details p {
     margin: 0 0 10px;
-    color: #9F9F9F!important;
+    color:#524848;
 }
 
-
+.table-bordered>tbody>tr>td{
+	color: #524848;
+}
 
 /* --------------------------------------
 LINK STYLE
@@ -108,7 +110,7 @@ GLOBAL BUTTON STYLE
 /*btn-primary*/
 .btn-primary {
 	background: transparent;
-	border: 0;
+	border: 1px solid #5E3DA4;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -260,7 +262,7 @@ NAVIGATION
 	border: 0;
     border-radius: 0;
     margin: 0;
-    background: rgba(181, 178, 183, .5);
+    background: #2A1951;
     box-shadow: 0 0 0 1px #ededed;
 }
 
@@ -278,7 +280,7 @@ NAVIGATION
 	margin-top: -12px;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #606060;
+    color:#80769B;
     text-transform: capitalize;
     font-size: 16px;
     line-height: 24px;
@@ -295,7 +297,7 @@ NAVIGATION
 	position: absolute;
 	display: none;
 	z-index: 999999;
-	background: #DAD8DB;
+	background: #2A1951;
 	font-family: sans-serif;
 	width: 180px;
 	margin-left: -51%;
@@ -308,7 +310,7 @@ NAVIGATION
 	margin-bottom: 2px;
 }
 .navbar-default .navbar-nav li ul li a {
-	color: #777;
+	color: #A8A8A8!important;
 	text-transform: capitalize;
 	font-size: 16px;
 	line-height: 24px;
@@ -1034,7 +1036,7 @@ TESTIMONIAL SECTION
 }
 
 #testimonial-carousel .carousel-indicators li {
-    background-color: #ededed;
+    background-color: #a5d6ec;
     border: 1px solid #ededed;
 }
 #testimonial-carousel .carousel-indicators .active {
