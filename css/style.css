@@ -1278,7 +1278,9 @@ FOOTER SECTION
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
+.footer-widget p{
+	    margin-top: 4%;
+}
 .footer-widget.footer-logo {
     padding: 40px 0 40px 50px;
     position: relative;
