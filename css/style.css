@@ -361,7 +361,8 @@ NAVIGATION
     margin-left:25px;
 }
 .left_grid{
-	background-color: rgba(10, 10, 10, 0.50)
+	background-color: rgba(10, 10, 10, 0.50);
+	cursor: pointer;
 }
 .left_grid:hover,.middle_grid:hover{
     background: rgba(10, 10, 10, 0.20);
@@ -393,12 +394,33 @@ NAVIGATION
     color: #15d0d0;
 }
 .middle_grid{
-	background-color: rgba(10, 10, 10, 0.50)
+	background-color: rgba(10, 10, 10, 0.50);
+	cursor: pointer;
 }
 .right_grid{
 	background-color: rgba(10, 10, 10, 0.50)
 }
-
+.event{}
+.event_left{}
+.event_left p{}
+.event_right{}
+.event_right p{}
+.panel-group .panel {
+	margin-bottom: 0;
+	border-radius: 4px;
+	padding: 0;
+}
+.panel-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: inherit;
+	padding: 10px;
+}
+.panel-title > a {
+	color: inherit;
+	text-decoration: none;
+}
 
 @media screen and (max-width:767px) {
 
