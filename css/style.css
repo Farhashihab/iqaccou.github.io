@@ -4,8 +4,9 @@ Description: HTML5 / CSS3 Multi Page
 Version: 1.0
 Author: Cloud Software Solution Ltd.
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i');
 
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,700i');
 
 body {
     font-family: "Roboto", sans-serif;
@@ -347,58 +348,127 @@ NAVIGATION
     background-color: transparent;
     border-bottom: 1px dotted #6145d6;
 }
-
-/*Slider bottom*/
-
-/*.link {
-	height: 265px;
+/*carousel*/
+.carousel-indicators {
+    bottom: 0px;
 }
-.qac_link {
+/*Upcoming event*/
+#event{
+	z-index: 99999;
+    margin-top: -10%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    margin-left:25px;
+}
+.left_grid{
+	background-color: rgba(10, 10, 10, 0.50)
+}
+.left_grid:hover,.middle_grid:hover{
+    background: rgba(10, 10, 10, 0.20);
+}
+.left_grid1{}
+.left_grid1 p{
+	    font-size: 60px;
+    color: #ceb05d;
+    padding-top: 23%;
+}
+.left_grid1 span{
+	font-size: 24px;
+    margin-left: 17px;
+    color: #5eabf1;
+}
+.left_grid2{
+	
+}
+.left_grid2 h5{
+	font-size: 25px;
+    padding-top: 2%;
+    color: #85f7a8;
+    letter-spacing: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+.left_grid2 p{
+	    font-size: 26px;
+    color: #15d0d0;
+}
+.middle_grid{
+	background-color: rgba(10, 10, 10, 0.50)
+}
+.right_grid{
+	background-color: rgba(10, 10, 10, 0.50)
+}
+
+
+@media screen and (max-width:767px) {
+
+	.carousel-indicators {
+	bottom: -16px;
+}
+
+	.slider-cap {
+	margin-top: 15%;
+	}
+	#event {
+	margin-top: -12%;
+	margin-left: 14px;
+	}
+	.left_grid1 {
 	float: left;
+	}
+	.left_grid2 h5 {
+	font-size: 20px;
+	padding-top: 2%;
+	letter-spacing: 1px;
+	
+	}
+	.left_grid2 p {
+	font-size: 20px;
+	color: #15d0d0;
 	text-align: center;
-	background: #8B072F;
-	width: 35%;
-	margin-left: 117px;
-	height: 200px;
+	}
+	.left_grid1 p {
+    font-size: 24px;
+	color: #ceb05d;
+	padding-top: 2%;
+	margin-left: -97%;
 }
-.qac_link:hover,.iqac_link:hover {
-	width: 37%;
-	height: 211px;
-	transition: width 1s,height 1s;
-	box-shadow: 10px 10px 10px 0px #505050;
+	.left_grid1 span {
+    font-size: 17px;
+    margin-left: 1px;
+    margin-left: -97%;
+	}
 }
-.qac_link a {
-	font-size: 70px;
-	padding: auto;
-	border-bottom: 1px solid #fff;
-}
-.qac_link a i,.iqac_link a i  {
-	padding: 40px;
-	color: #fff;
-}
-.qac_link h3,.iqac_link h3{
-	color: #fff;
-}
-.iqac_link {
-	float: left;
-	text-align: center;
-	background: #8B072F;
-	width: 35%;
-	margin-left: 70px;
-	height: 200px;
-}
-.iqac_link a {
-	font-size: 70px;
-	padding: auto;
-	border-bottom: 1px solid #fff;
-}
-.iqac_link a i
-{
-	padding: 40px;
-	color: #fff;
-}
-*/
 
+@media screen and (max-width:480px){
+
+	.left_grid1 p {
+	font-size: 20px;
+	color: #ceb05d;
+	padding-top: 2%;
+	margin-left: -97%;
+	margin-bottom: -15%;
+	}
+	.left_grid2 h5 {
+	font-size: 12px;
+	padding-top: 2%;
+	letter-spacing: 1px;
+	margin-bottom: 1%;
+	}
+	.left_grid2 p {
+	font-size: 12px;
+	}
+	#event {
+	margin-top: -15%;
+	margin-left: 14px;
+	}
+	.hero-slide .carousel-caption h1 {
+	font-size: 12px !important;
+	margin-top: -63px;
+	padding: 4px;
+}
+
+}
 
 
 /*QAC CONTENT*/
@@ -2012,6 +2082,8 @@ BACK TO TOP
 	background-color: rgba(0,0,0,0.3);
 	
 	padding: 12px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 .slider-cap p{}
 /*.hero-slide .carousel-caption {
@@ -2048,9 +2120,9 @@ BACK TO TOP
 .hero-slide .carousel-caption h1 {
     font-size               : 46px;
     line-height             : 1;
-    font-weight             : bold;
+    font-weight             : 
     text-transform          : capitalize;
-    margin                  : 30px 0 20px;
+    margin                  : -115px 0 20px;
     -webkit-animation-delay : 150ms;
     animation-delay         : 150ms;
     color: #fff;
@@ -2152,8 +2224,8 @@ BACK TO TOP
 }
 	.slider-cap p{}
     .hero-slide .carousel-caption h1 {
-        font-size : 18px;
-        margin-top: -30px;
+        font-size: 18px !important;
+        margin-top: -82px;
         }
 
     .hero-slide .carousel-caption .lead{
