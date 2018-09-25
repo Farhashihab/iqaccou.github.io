@@ -382,6 +382,9 @@ NAVIGATION
 .left_grid2{
 	
 }
+.left_grid2 a{
+	text-decoration: none;
+}
 .left_grid2 h5{
 	font-size: 25px;
     padding-top: 2%;
