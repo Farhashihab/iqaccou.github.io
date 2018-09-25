@@ -354,6 +354,9 @@ NAVIGATION
     bottom: 0px;
 }
 /*Upcoming event*/
+#event_sec {
+	margin-bottom: 5%;
+}
 #event{
 	z-index: 99999;
     margin-top: -10%;
