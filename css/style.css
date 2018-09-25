@@ -356,6 +356,7 @@ NAVIGATION
 /*Upcoming event*/
 #event_sec {
 	margin-bottom: 5%;
+	margin-top: -6%;
 }
 #event{
 	z-index: 99999;
@@ -427,7 +428,16 @@ NAVIGATION
 .panel-title > a {
 	color: inherit;
 	text-decoration: none;
+}/*
+.panel-default > .panel-heading {
+	color: #F9F9FA;
+	background-color: #F98766;
+	border-color: #ddd;
 }
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #ddd;
+	background-color: #DBF0E5;
+}*/
 
 @media screen and (max-width:767px) {
 
