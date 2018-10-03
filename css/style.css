@@ -1179,6 +1179,20 @@ TESTIMONIAL SECTION
 
 
 
+
+
+/*Achievement*/
+.achievement-img img {
+	width: 100% !important;
+	border-radius: 0 !important;
+	height: 350px !important;
+	float: left;
+}
+.achievement-caption{}
+.achievement-caption h2{}
+.achievement-caption a{}
+
+
 /* ------------------------------------------------------------------
 PARTNER SECTION
 --------------------------------------------------------------------- */
